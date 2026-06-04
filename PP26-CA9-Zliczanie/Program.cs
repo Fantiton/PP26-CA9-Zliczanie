@@ -1,4 +1,9 @@
-﻿Random rand = new Random();
+﻿/*
+Polecenie:
+napisz algorytm w języku C# sortujący niemalejąco tablicę n-elementową pseudolosowych liczb całkowitych.
+*/
+
+Random rand = new Random();
 
 int[] array = new int[rand.Next(1, 100)];
 
