@@ -33,7 +33,7 @@ int[] sort(int[] inputArray)
     //Tablica pomocnicza
     int[] countArray = new int[k];
 
-    for (int i = lowest; i < highest; i++)
+    for (int i = lowest; i <= highest; i++)
     {
         int count = 0;
 
